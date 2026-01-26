@@ -1,16 +1,32 @@
-# React + Vite
+# 💎 CreditMind
+> **Kernel Panic Team | Qdrant Hackathon 2026**
+> Moving beyond black-box credit scoring. CreditMind transforms static loan applications into searchable, explainable historical intelligence.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📖 Project Overview
+CreditMind addresses **"Contextual Amnesia"** in financial systems. While traditional models provide a numerical score, they lack evidence. Our engine uses **High-Dimensional Vector Search** to retrieve "Historical Twins"—past loan applications with similar financial DNA—to provide audit-ready justifications for every decision.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ The Tech Stack
+* **Frontend:** React.js (Stateful Dashboards & Dynamic Controllers)
+* **Backend:** FastAPI (Python 3.10+)
+* **Vector Database:** Qdrant (HNSW Indexing & Cosine Similarity)
+* **Data Science:** Scikit-Learn (Normalization & Encoding)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Repository Structure
+```bash
+CreditMind/
+├── Backend/             # The Inference Engine
+│   ├── main.py          # FastAPI Gateway
+│   ├── requirements.txt # Dependencies
+│   └── .gitignore       # Python-specific excludes
+├── Frontend/            # The Intelligence Dashboard
+│   ├── src/             # React Logic & Components
+│   ├── React-README.md  # Detailed UI documentation by Sarra
+│   └── .gitignore       # Node-specific excludes
+├── architecture.png     # Full-stack System Diagram
+└── README.md            # You are here
