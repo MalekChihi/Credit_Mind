@@ -123,7 +123,6 @@ export default function AuditTrail() {
         <div className="header-content">
           <div>
             <h1>Audit Trail</h1>
-            <p className="header-subtitle">Complete decision history with transparency and traceability</p>
           </div>
           <div className="header-actions">
             <button className="btn btn-secondary">
@@ -134,12 +133,12 @@ export default function AuditTrail() {
               </svg>
               Export Audit Log
             </button>
-            <button className="btn btn-secondary" onClick={() => navigate("/admin")}>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M19 12H5M12 19l-7-7 7-7"/>
-              </svg>
-              Back to Dashboard
-            </button>
+     <button className="btn btn-secondary" onClick={() => navigate("/admin")}>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <path d="M19 12H5M12 19l-7-7 7-7"/>
+  </svg>
+  Back to Dashboard
+</button>
           </div>
         </div>
       </header>

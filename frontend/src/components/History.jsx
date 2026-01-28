@@ -112,7 +112,6 @@ export default function History() {
         <div className="header-content">
           <div>
             <h1>Historical Cases</h1>
-            <p className="header-subtitle">Browse and analyze past credit decisions with verified outcomes</p>
           </div>
           <button className="btn btn-secondary" onClick={() => navigate("/admin")}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

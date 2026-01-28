@@ -86,9 +86,8 @@ export default function ViewApplication() {
       <header className="dashboard-header">
         <div className="header-content">
           <div>
-            <h1>Loan Applications</h1>
+            <h1>Applications</h1>
             <p style={{ marginTop: '0.5rem', opacity: 0.8 }}>
-              Review and manage loan applications
             </p>
           </div>
           <button className="btn btn-secondary" onClick={() => navigate("/admin")}>
